@@ -25,18 +25,21 @@ The images were pre-processed by the following steps :
 ### Training :
 
 A sequential deep learning model was designed keeping in mind the complexity and
-volume of data to be learned. 
+volume of data to be learned. The block diagram on the next page summarizes the
+architecture of the whole neural network.
+![Model1](https://github.com/mehulkasliwal/Flipkart-GRID-Chalenge/blob/master/Model1.jpg)
+![Model2](https://github.com/mehulkasliwal/Flipkart-GRID-Chalenge/blob/master/Model2.jpg)
 
 ### Features Used :
 
 ● EarlyStopping was used with a minimum threshold of 0.0001 for delta to prevent
-model from overfitting.
+model from overfitting.  
 ● Callbacks feature of Keras was used to store the timesnap of model weights after
-epoch.
+epoch.  
 ● Adam was chosen as optimizer for the model because of its excellent record with
-regression data.
+regression data.  
 ● MSE loss function was used to calculate the deviation from true value of the
-predicted value.
+predicted value.  
 
 ### Testing :
 
